@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Book a Ride | RideConnect</title><meta name="description" content="Request a taxi, airport transfer, local ride or outstation trip with RideConnect.">
+<link rel="stylesheet" href="assets/style.css"></head>
+<body><header class="site-header"><nav class="nav container"><a class="logo" href="index.html"><span>RC</span> RideConnect</a><button class="menu-toggle">☰</button><div class="nav-links"><a href="index.html">Home</a><a class="active" href="booking.html">Book a Ride</a><a href="services.html">Services</a><a href="fleet.html">Fleet</a><a href="about.html">About</a><a href="contact.html">Contact</a><a class="btn btn-small" href="partner.html">Become a Partner</a></div></nav></header>
+<main><section class="page-hero"><div class="container"><p class="eyebrow">BOOKING</p><h1>Tell us where you want to go.</h1><p>Submit your trip request. This starter version stores the request in your browser; connect a backend in Phase 2 for real-time bookings.</p></div></section>
+<section class="section"><div class="container form-layout"><form class="form-card" id="bookingForm">
+<h2>Ride request</h2><div class="form-grid">
+<label>Full name<input name="name" required></label><label>Mobile number<input name="phone" type="tel" required></label>
+<label>Pickup location<input name="pickup" required></label><label>Drop location<input name="drop" required></label>
+<label>Travel date<input name="date" type="date" required></label><label>Pickup time<input name="time" type="time" required></label>
+<label>Ride type<select name="rideType"><option>Local City Ride</option><option>Airport Transfer</option><option>Outstation</option><option>Car Rental</option><option>Corporate Travel</option></select></label>
+<label>Passengers<select name="passengers"><option>1-2</option><option>3-4</option><option>5-6</option><option>7+</option></select></label>
+</div><label>Additional requirements<textarea name="notes" rows="4" placeholder="Child seat, luggage, round trip, etc."></textarea></label><button class="btn" type="submit">Submit Booking Request</button><p id="bookingMessage" class="success" hidden></p></form>
+<aside class="info-card"><h3>What happens next?</h3><ol><li>We receive your trip request.</li><li>A suitable driver/vehicle partner can be matched.</li><li>Fare and trip details are confirmed.</li><li>You receive the final booking confirmation.</li></ol><div class="notice"><strong>Important:</strong> This GitHub Pages version is a front-end demo. Do not collect sensitive payment or identity information here until a secure backend is connected.</div></aside></div></section></main>
+<footer class="footer"><div class="container footer-grid"><div><a class="logo" href="index.html"><span>RC</span> RideConnect</a><p>Connecting customers with trusted mobility partners.</p></div><div><h4>Explore</h4><a href="services.html">Services</a><a href="fleet.html">Fleet</a></div><div><h4>Company</h4><a href="about.html">About</a><a href="contact.html">Contact</a></div></div><div class="container copyright">© 2026 RideConnect.</div></footer><script src="assets/script.js"></script></body></html>
